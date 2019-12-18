@@ -2,14 +2,30 @@ package com.fb01001.config;
 
 import com.fb01001.bean.Person;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Indexed;
+import org.springframework.stereotype.Service;
 
 /***
  *@Title 配置类
  *＠author    fangbin
  *@Date 19-12-18 下午1:42
  */
+
+/*@ComponentScans({
+        @ComponentScan(value = "com.fb01001",includeFilters = {
+                @ComponentScan.Filter(type = FilterType.ANNOTATION,classes = {Controller.class})
+        },useDefaultFilters = false)
+})*/
+//　排除指定类型的组件
+/*@ComponentScan(value = "com.fb01001",excludeFilters = {
+        @ComponentScan.Filter(type= FilterType.ANNOTATION,classes = {Controller.class, Service.class,org.springframework.stereotype.Repository.class})
+})*/
+// 只包含指定的组件
+/*@ComponentScan(value = "com.fb01001",includeFilters = {
+        @ComponentScan.Filter(type= FilterType.ANNOTATION,classes = {Controller.class})
+},useDefaultFilters = false)*/
 @Configuration
 public class MainConfig {
 
