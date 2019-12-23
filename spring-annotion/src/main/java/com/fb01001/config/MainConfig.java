@@ -26,8 +26,25 @@ import org.springframework.stereotype.Service;
 /*@ComponentScan(value = "com.fb01001",includeFilters = {
         @ComponentScan.Filter(type= FilterType.ANNOTATION,classes = {Controller.class})
 },useDefaultFilters = false)*/
+
+/**
+ * FilterType.ANNOTATION  按照注解
+ * FilterType.ASSIGNABLE_TYPE  按照给定的类型
+ * FilterType.ASPECTJ ASPECTJ表达式
+ * FilterType.REGEX　　正则表达式
+ * FilterType.CUSTOM　自定义规则
+ *
+ */
+/*@ComponentScans({
+        @ComponentScan(value = "com.fb01001",includeFilters = {
+                @ComponentScan.Filter(type = FilterType.CUSTOM,classes = {MyTypeFilter.class}
+                )
+        },
+                useDefaultFilters = false)
+})*/
 @Configuration
 public class MainConfig {
+
 
     //　给容器中注册了一个bean，类型为返回值类型，id 默认为方法名作为id
     @Bean("person")

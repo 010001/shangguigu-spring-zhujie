@@ -16,6 +16,13 @@ public class Person {
     private String id;
     private String name;
     private int age;
+
     @Tolerate
-    public Person(){};
+    public Person(){}
+
+    @Tolerate
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
 }
