@@ -1,10 +1,9 @@
-import com.fb01001.bean.Blue;
+import com.fb01001.bean.colour.Blue;
 import com.fb01001.bean.Person;
 import com.fb01001.config.MainConfig;
 import com.fb01001.config.MainConfig02;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.core.env.ConfigurableEnvironment;
 
 import java.util.Map;
 
@@ -128,5 +127,22 @@ public class IOCTest {
              ) {
             System.out.println(name);
         }
+    }
+
+    @Test
+    public void testColourFactoryBean() {
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfig02.class);
+        this.printBeans(annotationConfigApplicationContext);
+
+        //工厂bean　获取到的是　调用　getObject()　创建的对象
+        Object colourFactoryBean = annotationConfigApplicationContext.getBean("ColourFactoryBean");
+        Object colourFactoryBean2 = annotationConfigApplicationContext.getBean("ColourFactoryBean");
+
+        System.out.println("ColourFactoryBean----class---" + colourFactoryBean.getClass());
+        System.out.println(colourFactoryBean == colourFactoryBean2);
+
+        // 获取工厂类本身
+        Object colourFactory = annotationConfigApplicationContext.getBean("&ColourFactoryBean");
+        System.out.println(colourFactory.getClass());
     }
 }

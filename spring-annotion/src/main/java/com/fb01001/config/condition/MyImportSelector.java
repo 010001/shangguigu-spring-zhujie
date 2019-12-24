@@ -25,6 +25,6 @@ public class MyImportSelector implements ImportSelector {
         }*/
        //方法不能返回 null 会引起空指针问题
 
-        return new String[]{"com.fb01001.bean.Blue","com.fb01001.bean.Yellow"};
+        return new String[]{"com.fb01001.bean.colour.Blue","com.fb01001.bean.colour.Yellow"};
     }
 }

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ce3afa6-cfc9-44fe-8c32-6e3afa741e8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Blue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Red.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Yellow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/bean/Blue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/bean/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/bean/Yellow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/config/MainConfig02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fb01001/config/MainConfig02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IOCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IOCTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,43 +37,44 @@
     <session id="291616407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
           <entry key="dummy" value="11" />
-          <entry key="java" value="4642" />
+          <entry key="java" value="5262" />
           <entry key="xml" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="4642" />
+          <entry key="JAVA" value="5262" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="adoc" value="2" />
-          <entry key="class" value="29" />
-          <entry key="java" value="49" />
+          <entry key="adoc" value="3" />
+          <entry key="class" value="33" />
+          <entry key="java" value="56" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="29" />
-          <entry key="JAVA" value="49" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="CLASS" value="33" />
+          <entry key="JAVA" value="56" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -70,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/IOCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+            <state relative-caret-position="399">
+              <caret line="144" column="76" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,34 +95,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="9" />
+            <state relative-caret-position="385">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2772#2773#0" expanded="true" />
+                <element signature="e#2815#2816#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-context/src/main/java/org/springframework/context/annotation/Import.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -115,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="80" lean-forward="true" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+            <state relative-caret-position="294">
+              <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,28 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class">
+        <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/support/RootBeanDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/RootBeanDefinition.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/RainBow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-8">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -155,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" column="83" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,10 +142,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/ColourFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="567" selection-start-line="567" selection-end-line="567" />
+            <state relative-caret-position="109">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/FactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Blue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -186,6 +194,7 @@
     <findStrings>
       <find>p1</find>
       <find>p2</find>
+      <find>&amp;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,9 +232,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/LinuxCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/WinCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Color.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IOCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/ColourFactoryBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java" />
       </list>
     </option>
@@ -249,10 +259,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-annotion" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-annotion" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="154" />
     <option name="y" value="82" />
     <option name="width" value="1533" />
@@ -291,8 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,6 +358,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fb01001" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-annotion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fb01001" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="colour" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
@@ -408,6 +442,32 @@
             <path>
               <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework:spring-core:5.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -462,12 +522,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577168880425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577173397577" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -485,17 +547,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IOCTest.testImport">
-    <configuration name="IOCTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-annotion" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IOCTest" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IOCTest.testColourFactoryBean">
     <configuration name="IOCTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotion" />
       <option name="PACKAGE_NAME" value="" />
@@ -526,6 +578,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IOCTest.testColourFactoryBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IOCTest" />
+      <option name="METHOD_NAME" value="testColourFactoryBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IOCTest.testImport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-annotion" />
       <option name="PACKAGE_NAME" value="" />
@@ -537,19 +599,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IOCTest.test02" />
       <item itemvalue="JUnit.IOCTest.test03" />
       <item itemvalue="JUnit.IOCTest.test04" />
       <item itemvalue="JUnit.IOCTest.test05" />
       <item itemvalue="JUnit.IOCTest.testImport" />
+      <item itemvalue="JUnit.IOCTest.testColourFactoryBean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IOCTest.testColourFactoryBean" />
         <item itemvalue="JUnit.IOCTest.testImport" />
         <item itemvalue="JUnit.IOCTest.test05" />
         <item itemvalue="JUnit.IOCTest.test04" />
         <item itemvalue="JUnit.IOCTest.test03" />
-        <item itemvalue="JUnit.IOCTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -568,50 +630,60 @@
       <workItem from="1577063132949" duration="6808000" />
       <workItem from="1577097028902" duration="184000" />
       <workItem from="1577097253700" duration="3475000" />
-      <workItem from="1577153931330" duration="9030000" />
+      <workItem from="1577153931330" duration="9953000" />
+      <workItem from="1577171541957" duration="1855000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 13h 46m 06s.xml">
+    <history-entry file="IOCTest_testImport - 2019.12.24 at 15h 11m 57s.xml">
       <configuration name="IOCTest.testImport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 13h 47m 35s.xml">
+    <history-entry file="IOCTest_testImport - 2019.12.24 at 15h 12m 40s.xml">
       <configuration name="IOCTest.testImport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 13h 48m 31s.xml">
+    <history-entry file="IOCTest_testImport - 2019.12.24 at 15h 13m 56s.xml">
       <configuration name="IOCTest.testImport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 13h 49m 40s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 26m 49s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 13h 51m 36s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 28m 19s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 13h 52m 17s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 31m 22s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 14h 12m 45s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 31m 39s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 14h 13m 07s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 32m 41s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 14h 14m 25s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 34m 52s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IOCTest_testImport - 2019.12.24 at 14h 14m 40s.xml">
-      <configuration name="IOCTest.testImport" configurationId="JUnit" />
+    <history-entry file="IOCTest_testColourFactoryBean - 2019.12.24 at 15h 35m 16s.xml">
+      <configuration name="IOCTest.testColourFactoryBean" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29984000" />
+    <option name="totallyTimeSpent" value="32762000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1924" height="1055" extended-state="7" />
+    <frame x="-2" y="0" width="1924" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841937" visible="true" weight="0.26574174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841937" visible="true" weight="0.26894343" />
       <window_info id="Structure" order="1" sideWeight="0.5015806" side_tool="true" weight="0.2524013" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -619,12 +691,12 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37934667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36775553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
@@ -637,7 +709,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497332" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -649,70 +721,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/annotation/FilterType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/type/filter/TypeFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/asm/AnnotationVisitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/asm/AnnotationWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/asm/Attribute.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/asm/ClassTooLargeException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -835,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/src/docs/asciidoc/core/core-beans.adoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137265">
-          <caret line="9151" column="1" selection-start-line="9151" selection-start-column="1" selection-end-line="9151" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -904,14 +906,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/Red.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Red.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
@@ -932,14 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/Blue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/Yellow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Yellow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
@@ -963,7 +951,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/RainBow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -971,6 +959,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="1267" column="11" selection-start-line="1267" selection-start-column="11" selection-end-line="1267" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-context/src/main/java/org/springframework/context/annotation/Import.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -988,34 +1000,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-context/src/main/java/org/springframework/context/annotation/Import.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="567" selection-start-line="567" selection-end-line="567" />
+          <caret line="596" selection-start-line="596" selection-end-line="596" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Blue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IOCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="80" lean-forward="true" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+        <state relative-caret-position="399">
+          <caret line="144" column="76" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1025,29 +1027,83 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" column="83" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/src/docs/asciidoc/core/core-beans.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="9637" column="27" selection-start-line="9637" selection-start-column="26" selection-end-line="9637" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/ColourFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/support/RootBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/FactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="9" />
+        <state relative-caret-position="385">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
           </folding>
         </state>
       </provider>

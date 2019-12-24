@@ -1,4 +1,4 @@
-package com.fb01001.bean;
+package com.fb01001.bean.colour;
 
 /***
  *@Title ${TODO}

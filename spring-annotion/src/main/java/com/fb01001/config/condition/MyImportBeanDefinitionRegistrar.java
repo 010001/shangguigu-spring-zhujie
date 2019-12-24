@@ -26,8 +26,8 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
 
         //boolean red = registry.containsBeanDefinition("com.fb01001.bean.Red");
-        boolean blue = registry.containsBeanDefinition("com.fb01001.bean.Blue");
-        boolean yellow = registry.containsBeanDefinition("com.fb01001.bean.Yellow");
+        boolean blue = registry.containsBeanDefinition("com.fb01001.bean.colour.Blue");
+        boolean yellow = registry.containsBeanDefinition("com.fb01001.bean.colour.Yellow");
         if(blue && yellow){
             //　注册一个ｂｅａｎ　指定ｂｅａｎ的定义信息
             BeanDefinition beanDefinition = new RootBeanDefinition(RainBow.class);

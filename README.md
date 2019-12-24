@@ -64,3 +64,7 @@
     - 3.1 @Import快速给容器中导入组件，容器自动注册组件，组件ｉｄ为类的全类名
     - 3.2 @ImportSelector 返回需要导入的组件的全类名数组
     - 3.3 @ImportBeanDefinitionRegistrar 手动注册bean到容器中
+  - 4 使用Ｓｐｒｉｎｇ提供的工厂ｂｅａｎ　FactoryBean
+    - 4.1 默认取到的是工厂ｂｅａｎ　调用getObejct()获取到的创建的对象
+    - 4.2 要获取工厂ｂｅａｎ本身需要在id前加 & 来获取工厂类本身
+

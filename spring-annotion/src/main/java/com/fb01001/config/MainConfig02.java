@@ -1,18 +1,12 @@
 package com.fb01001.config;
 
-import com.fb01001.bean.Color;
 import com.fb01001.bean.Person;
-import com.fb01001.bean.Red;
+import com.fb01001.bean.colour.ColourFactoryBean;
 import com.fb01001.config.condition.LinuxCondition;
 import com.fb01001.config.condition.MyImportBeanDefinitionRegistrar;
 import com.fb01001.config.condition.MyImportSelector;
 import com.fb01001.config.condition.WinCondition;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 /***
  *@Title ${TODO}
@@ -41,6 +35,9 @@ public class MainConfig02 {
      *      3.1 @Import快速给容器中导入组件，容器自动注册组件，组件ｉｄ为类的全类名
      *      3.2 @ImportSelector 返回需要导入的组件的全类名数组
      *      3.3 @ImportBeanDefinitionRegistrar 手动注册bean到容器中
+     * 4 使用Ｓｐｒｉｎｇ提供的工厂ｂｅａｎ　FactoryBean
+     *      4.1 默认取到的是工厂ｂｅａｎ　调用getObejct()获取到的创建的对象
+     *      4.2 要获取工厂ｂｅａｎ本身需要在id前加 & 来获取工厂类本身
      */
 
     // 默认都是单实例的
@@ -96,6 +93,12 @@ public class MainConfig02 {
     public Person Person0５(){
         System.out.println("给容器中增加实例。。。。。linus------");
         return new Person("linus",70);
+    }
+
+
+    @Bean
+    public ColourFactoryBean ColourFactoryBean(){
+        return new ColourFactoryBean();
     }
 
 }
