@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ce3afa6-cfc9-44fe-8c32-6e3afa741e8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Blue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/Yellow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fb01001/config/condition/MyImportSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/bean/Blue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/bean/Red.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/bean/Yellow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/config/MainConfig02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fb01001/config/MainConfig02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportBeanDefinitionRegistrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fb01001/config/condition/MyImportSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IOCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IOCTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,14 +36,14 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="dummy" value="11" />
-          <entry key="java" value="5262" />
+          <entry key="java" value="5395" />
           <entry key="xml" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="5262" />
+          <entry key="JAVA" value="5395" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="73" />
         </counts>
@@ -66,14 +52,14 @@
         <counts>
           <entry key="adoc" value="3" />
           <entry key="class" value="33" />
-          <entry key="java" value="56" />
+          <entry key="java" value="57" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="33" />
-          <entry key="JAVA" value="56" />
+          <entry key="JAVA" value="57" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
         </counts>
@@ -94,16 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="349">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="39" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2772#2773#0" expanded="true" />
                 <element signature="e#2815#2816#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfigOfLifeCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -237,6 +232,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/bean/colour/ColourFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/test/java/IOCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfigOfLifeCycle.java" />
       </list>
     </option>
   </component>
@@ -385,16 +381,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fb01001" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="condition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-annotion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-annotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fb01001" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -529,7 +515,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577173397577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577173964678" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../github/spring-projects/spring-framework/spring-framework-5.2.2.RELEASE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -631,7 +617,7 @@
       <workItem from="1577097028902" duration="184000" />
       <workItem from="1577097253700" duration="3475000" />
       <workItem from="1577153931330" duration="9953000" />
-      <workItem from="1577171541957" duration="1855000" />
+      <workItem from="1577171541957" duration="2422000" />
     </task>
     <servers />
   </component>
@@ -668,7 +654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32762000" />
+    <option name="totallyTimeSpent" value="33329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,13 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/asm/ClassTooLargeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/asm/ModuleWriter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1098,13 +1077,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfig02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        <state relative-caret-position="349">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="39" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2772#2773#0" expanded="true" />
             <element signature="e#2815#2816#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fb01001/config/MainConfigOfLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
