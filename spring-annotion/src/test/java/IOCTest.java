@@ -1,7 +1,11 @@
+import com.fb01001.bean.Person;
 import com.fb01001.config.MainConfig;
 import com.fb01001.config.MainConfig02;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
+
+import java.util.Map;
 
 /***
  *@Title ${TODO}
@@ -81,5 +85,45 @@ public class IOCTest {
         Object wangwu02 = annotationConfigApplicationContext.getBean("wangwu");
         System.out.println(wangwu01 == wangwu02);
 
+    }
+
+
+    @Test
+    public void test05() {
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfig02.class);
+
+        /*Object p1 = annotationConfigApplicationContext.getBean("bill");
+        Object p2 = annotationConfigApplicationContext.getBean("linus");
+        System.out.println(p1.toString());*/
+        /*String[] names = annotationConfigApplicationContext.getBeanNamesForType(Person.class);
+        for (String name: names
+             ) {
+            System.out.println(name);
+        }*/
+
+        Map<String, Person> personsMap = annotationConfigApplicationContext.getBeansOfType(Person.class);
+        for (String name : personsMap.keySet()){
+            System.out.println(name);
+        }
+
+        /*ConfigurableEnvironment environment = annotationConfigApplicationContext.getEnvironment();
+        *//**
+         * 动态获取当前系统的操作系统名称
+         * Linux
+         *//*
+        System.out.println(environment.getProperty("os.name"));*/
+    }
+
+    @Test
+    public void testImport() {
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfig02.class);
+        this.printBeans(annotationConfigApplicationContext);
+    }
+    private void printBeans(AnnotationConfigApplicationContext annotationConfigApplicationContext ){
+        String[] names = annotationConfigApplicationContext.getBeanDefinitionNames();
+        for (String name: names
+             ) {
+            System.out.println(name);
+        }
     }
 }

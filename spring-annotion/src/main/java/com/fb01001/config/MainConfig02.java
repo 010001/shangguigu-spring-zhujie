@@ -1,23 +1,43 @@
 package com.fb01001.config;
 
+import com.fb01001.bean.Color;
 import com.fb01001.bean.Person;
+import com.fb01001.bean.Red;
+import com.fb01001.config.condition.LinuxCondition;
+import com.fb01001.config.condition.MyImportSelector;
+import com.fb01001.config.condition.WinCondition;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 /***
  *@Title ${TODO}
  *＠author    fangbin
  *@Date 19-12-20 下午5:48
  */
+//　类中组件统一设置
+// 满足LinuxCondition 条件，当前配置文件下加的所有类注册才能生效
+//@Conditional({LinuxCondition.class})
+
+/**
+ * 自动导入Color
+ * bean　id默认为　Color的全类名
+ */
+//@Import({Color.class, Red.class,MyImportSelector.class})
+@Import(MyImportSelector.class)
 public class MainConfig02 {
 
-    public static void main(String[] args) {
 
-    }
-
+    /**
+     * 给容器中注册组件：
+     * １ 包扫描　＋　组件注解　（＠Controller @Service @Repository @Component） 自己写的类
+     * 2 @Bean 导入的第三方包中的组件
+     * 3 ＠Ｉｍｐｏｒｔ　快速给容器中导入组件，容器自动注册组件，组件ｉｄ为类的全类名
+     * 4 @ImportSelector 返回需要导入的组件的全类名数组
+     */
 
     // 默认都是单实例的
     @Bean("zhangsan")
@@ -53,6 +73,25 @@ public class MainConfig02 {
     public Person Person03(){
         System.out.println("给容器中增加实例。。。。。wangwu------");
         return new Person("wangwu",56);
+    }
+
+    /**
+     * Conditional 传Condition
+     * 按照一定条件进行判断，满足条件给容器中注册ｂｅａｎ
+     *  如果是ｗｉｎ系统则注入ｂｉｌｌ
+     *  如果是ｌｉｎｕｘ系统则注入ｌｉｎｕｓ
+     */
+    @Conditional({WinCondition.class})
+    @Bean("bill")
+    public Person Person0４(){
+        System.out.println("给容器中增加实例。。。。。bill------");
+        return new Person("bill",56);
+    }
+    @Conditional({LinuxCondition.class})
+    @Bean("linus")
+    public Person Person0５(){
+        System.out.println("给容器中增加实例。。。。。linus------");
+        return new Person("linus",70);
     }
 
 }
