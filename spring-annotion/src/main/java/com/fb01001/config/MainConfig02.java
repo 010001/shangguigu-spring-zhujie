@@ -40,7 +40,7 @@ public class MainConfig02 {
      * 3 ＠Ｉｍｐｏｒｔ　
      *      3.1 @Import快速给容器中导入组件，容器自动注册组件，组件ｉｄ为类的全类名
      *      3.2 @ImportSelector 返回需要导入的组件的全类名数组
-     *      3.3 @ImportBeanDefinitionRegistrar
+     *      3.3 @ImportBeanDefinitionRegistrar 手动注册bean到容器中
      */
 
     // 默认都是单实例的
