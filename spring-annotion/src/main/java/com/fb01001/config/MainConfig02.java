@@ -4,6 +4,7 @@ import com.fb01001.bean.Color;
 import com.fb01001.bean.Person;
 import com.fb01001.bean.Red;
 import com.fb01001.config.condition.LinuxCondition;
+import com.fb01001.config.condition.MyImportBeanDefinitionRegistrar;
 import com.fb01001.config.condition.MyImportSelector;
 import com.fb01001.config.condition.WinCondition;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
@@ -27,7 +28,8 @@ import org.springframework.stereotype.Service;
  * bean　id默认为　Color的全类名
  */
 //@Import({Color.class, Red.class,MyImportSelector.class})
-@Import(MyImportSelector.class)
+//@Import(MyImportSelector.class)
+@Import({MyImportSelector.class, MyImportBeanDefinitionRegistrar.class})
 public class MainConfig02 {
 
 
@@ -35,8 +37,10 @@ public class MainConfig02 {
      * 给容器中注册组件：
      * １ 包扫描　＋　组件注解　（＠Controller @Service @Repository @Component） 自己写的类
      * 2 @Bean 导入的第三方包中的组件
-     * 3 ＠Ｉｍｐｏｒｔ　快速给容器中导入组件，容器自动注册组件，组件ｉｄ为类的全类名
-     * 4 @ImportSelector 返回需要导入的组件的全类名数组
+     * 3 ＠Ｉｍｐｏｒｔ　
+     *      3.1 @Import快速给容器中导入组件，容器自动注册组件，组件ｉｄ为类的全类名
+     *      3.2 @ImportSelector 返回需要导入的组件的全类名数组
+     *      3.3 @ImportBeanDefinitionRegistrar
      */
 
     // 默认都是单实例的

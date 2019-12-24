@@ -1,3 +1,4 @@
+import com.fb01001.bean.Blue;
 import com.fb01001.bean.Person;
 import com.fb01001.config.MainConfig;
 import com.fb01001.config.MainConfig02;
@@ -118,6 +119,8 @@ public class IOCTest {
     public void testImport() {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfig02.class);
         this.printBeans(annotationConfigApplicationContext);
+        Blue blue = annotationConfigApplicationContext.getBean(Blue.class);
+        System.out.println(blue);
     }
     private void printBeans(AnnotationConfigApplicationContext annotationConfigApplicationContext ){
         String[] names = annotationConfigApplicationContext.getBeanDefinitionNames();
